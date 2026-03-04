@@ -1,0 +1,1 @@
+As soon as the code was created only for demostration and the function to play songs was added only for fun and doesn't really have a purpose, you have to load .wav files to this folder and change songs in the code for any you want
