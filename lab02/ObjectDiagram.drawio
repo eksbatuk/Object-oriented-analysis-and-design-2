@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="f-12nwopT4JH-kLnhoaR">
+    <mxGraphModel dx="1106" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TSlO79kmfnQgNBe6vchR-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;AK74: ConcreteWeapon&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;weaponType = &quot;AK74&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;range = 200&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accuracy = 20&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;stability = 70&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ammo = 0&lt;/p&gt;" vertex="1">
+          <mxGeometry height="105" width="160" x="345" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;extended: Magazine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ammoDifference = 50&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;stabilityDifference = -10&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accuracyDifference = -10&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="345" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;tactical: Stock&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accuracyDifference = 60&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;stabilityDifference = -5&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="345" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;laser: Scope&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accuracyDifference = 5&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;stabilityDifference = -5&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;rangeDifference = 30&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="345" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-5" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="424" y="655" as="sourcePoint" />
+            <mxPoint x="424" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-6" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="425" y="501" as="sourcePoint" />
+            <mxPoint x="425" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSlO79kmfnQgNBe6vchR-7" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="424" y="370" as="sourcePoint" />
+            <mxPoint x="424" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
