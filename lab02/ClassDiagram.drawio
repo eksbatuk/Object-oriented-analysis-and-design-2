@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="eDKFxwoRSW_dlfwyO9AU">
-    <mxGraphModel dx="1164" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1164" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6JJYTOzBzt6OVCop2oV5-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-weight: 400; text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(230, 232, 240), rgb(255, 255, 255));&quot;&gt;«interface» IWeapon&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="6JJYTOzBzt6OVCop2oV5-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-weight: 400; text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;«interface» IWeapon&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="345" y="110" as="geometry" />
         </mxCell>
         <mxCell id="6JJYTOzBzt6OVCop2oV5-7" parent="6JJYTOzBzt6OVCop2oV5-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -29,16 +29,16 @@
           <mxGeometry height="30" width="50" x="428" y="364" as="geometry" />
         </mxCell>
         <mxCell id="6JJYTOzBzt6OVCop2oV5-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WeaponDecorator" vertex="1">
-          <mxGeometry height="94" width="170" x="345" y="230" as="geometry" />
+          <mxGeometry height="94" width="215" x="300" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="6JJYTOzBzt6OVCop2oV5-15" parent="6JJYTOzBzt6OVCop2oV5-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;# overlayImagePath: String&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34" width="170" y="26" as="geometry" />
+        <mxCell id="6JJYTOzBzt6OVCop2oV5-15" parent="6JJYTOzBzt6OVCop2oV5-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;# overlayImagePath: String&lt;/div&gt;&lt;div&gt;# getBaseWeapon(weapon: IWeapon)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="215" y="26" as="geometry" />
         </mxCell>
         <mxCell id="6JJYTOzBzt6OVCop2oV5-16" parent="6JJYTOzBzt6OVCop2oV5-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="170" y="60" as="geometry" />
+          <mxGeometry height="8" width="215" y="60" as="geometry" />
         </mxCell>
         <mxCell id="6JJYTOzBzt6OVCop2oV5-17" parent="6JJYTOzBzt6OVCop2oV5-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ render():" vertex="1">
-          <mxGeometry height="26" width="170" y="68" as="geometry" />
+          <mxGeometry height="26" width="215" y="68" as="geometry" />
         </mxCell>
         <mxCell id="6JJYTOzBzt6OVCop2oV5-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Magazine" vertex="1">
           <mxGeometry height="124" width="325" x="345" y="410" as="geometry" />
@@ -125,8 +125,8 @@
             <mxPoint x="345" y="144.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t0oITFCiRDEvHGgZ2r3a-3" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# wrappedWeapon" vertex="1">
-          <mxGeometry height="26" width="120" x="530" y="120" as="geometry" />
+        <mxCell id="t0oITFCiRDEvHGgZ2r3a-3" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# wrappedWeapon: IWeapon" vertex="1">
+          <mxGeometry height="26" width="180" x="530" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
