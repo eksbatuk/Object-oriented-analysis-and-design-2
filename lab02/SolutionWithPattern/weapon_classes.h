@@ -87,7 +87,7 @@ protected:
     std::shared_ptr<Weapon> wrappedWeapon;
     QString overlayImagePath;
 
-    static std::shared_ptr<ConcreteWeapon> getBaseWeapon(std::shared_ptr<Weapon> weapon)
+    std::shared_ptr<ConcreteWeapon> getBaseWeapon(std::shared_ptr<Weapon> weapon)
     {
         if (!weapon) return nullptr;
         if (auto concrete = std::dynamic_pointer_cast<ConcreteWeapon>(weapon)) {
