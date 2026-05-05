@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="gOKRBdEhs2TI1xId-xKT">
+    <mxGraphModel dx="1094" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NonogramCore" vertex="1">
+          <mxGeometry height="190" width="260" x="10" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-2" parent="rZ5xiqlPRV2fNYvlmdcE-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ solution: Integer[]&lt;div&gt;+ rows: Integer&lt;/div&gt;&lt;div&gt;+ cols: Integer&lt;/div&gt;&lt;div&gt;+ player_grid: Integer[]&lt;/div&gt;&lt;div&gt;+ moves: Integer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-3" parent="rZ5xiqlPRV2fNYvlmdcE-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-4" parent="rZ5xiqlPRV2fNYvlmdcE-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ __init__():&lt;div&gt;+ get_hints(line[]: Integer): Integer&lt;/div&gt;&lt;div&gt;+ check_win(): Boolean&lt;/div&gt;&lt;div&gt;+ create_memento: Memento&lt;/div&gt;&lt;div&gt;+ restore_from_memento(memento: Memento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="260" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memento" vertex="1">
+          <mxGeometry height="120" width="170" x="340" y="151" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-6" parent="rZ5xiqlPRV2fNYvlmdcE-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _grid&lt;div&gt;+ _moves&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-7" parent="rZ5xiqlPRV2fNYvlmdcE-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-8" parent="rZ5xiqlPRV2fNYvlmdcE-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ __init__(state: Integer[])&lt;div&gt;+ _get_state(): state: Integer[]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="170" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="History" vertex="1">
+          <mxGeometry height="140" width="270" x="570" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-10" parent="rZ5xiqlPRV2fNYvlmdcE-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _undo_stack: Memento[]&lt;div&gt;+ _redo_stack: Memento[]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-11" parent="rZ5xiqlPRV2fNYvlmdcE-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-15" edge="1" parent="rZ5xiqlPRV2fNYvlmdcE-9" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-60" y="79" as="sourcePoint" />
+            <mxPoint y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-12" parent="rZ5xiqlPRV2fNYvlmdcE-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ __init__&lt;div&gt;+ save(memento: Memento)&lt;/div&gt;&lt;div&gt;+ undo(current_memento: Memento): Memento&lt;/div&gt;&lt;div&gt;+ redo(current_memento: Memento): Memento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="270" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ5xiqlPRV2fNYvlmdcE-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
