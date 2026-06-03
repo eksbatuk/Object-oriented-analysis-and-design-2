@@ -8,7 +8,7 @@ public class MusicRepository {
     private final IdentityMap identityMap = new IdentityMap();
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOAP2.4", "postgres", "tyt net parolya");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOAP2.4", "postgres", "kto prochital tot sdohnet");
     }
 
     public void clearSession() {
